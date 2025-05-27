@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="pub-id">urn:uuid:12345678-1234-1234-1234-123456789012</dc:identifier>
+        <dc:title>K-pop: The Global Phenomenon</dc:title>
+        <dc:language>en</dc:language>
+        <dc:creator>K-pop Fan</dc:creator>
+        <dc:subject>Music</dc:subject>
+        <dc:subject>Korean Culture</dc:subject>
+        <dc:description>An introduction to K-pop music and its global impact</dc:description>
+        <meta property="dcterms:modified">2024-04-29T12:00:00Z</meta>
+    </metadata>
+    <manifest>
+        <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+        <item id="page1" href="Text/page1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="animal" href="Text/animal.xhtml" media-type="application/xhtml+xml"/>
+        <item id="style1" href="Styles/style1.css" media-type="text/css"/>
+        <item id="nav-style" href="Styles/sgc-nav.css" media-type="text/css"/>
+        <item id="script1" href="Misc/script1.js" media-type="text/javascript"/>
+        <item id="cat-video" href="Video/20250429_Cat's_Sunny.mp4" media-type="video/mp4" properties="media-overlay"/>
+    </manifest>
+    <spine>
+        <itemref idref="page1"/>
+        <itemref idref="animal"/>
+    </spine>
+</package> 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+    <meta charset="utf-8" />
+    <title>Cat's Sunny Day</title>
+    <link href="../Styles/style1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Cat's Sunny Day</h1>
+    
+    <section class="video-section">
+        <h2>Meet Sunny the Cat</h2>
+        <p>Watch this adorable video of Sunny enjoying a beautiful sunny day. This playful cat shows us how to make the most of a perfect afternoon.</p>
+        
+        <div class="video-container">
+            <!-- EPUB 3.0 호환 비디오 구현 -->
+            <video 
+                controls="controls" 
+                width="100%" 
+                height="auto"
+                preload="metadata"
+                poster="../Images/video-poster.jpg"
+                epub:type="z3998:video">
+                <source src="../Video/20250429_Cat's_Sunny.mp4" type="video/mp4" />
+                <source src="../Video/20250429_Cat's_Sunny.webm" type="video/webm" />
+                <track kind="captions" src="../Video/captions.vtt" srclang="en" label="English" />
+                <p class="video-fallback">
+                    Your device does not support the video tag. 
+                    <a href="../Video/20250429_Cat's_Sunny.mp4">Click here to download the video</a>
+                </p>
+            </video>
+        </div>
+
+        <div class="video-description">
+            <h3>About the Video</h3>
+            <ul>
+                <li>Duration: 2 minutes</li>
+                <li>Format: MP4 (H.264) / WebM</li>
+                <li>Resolution: 720p</li>
+                <li>Date: April 29, 2025</li>
+                <li>File Size: ~10MB</li>
+            </ul>
+            <div class="video-requirements">
+                <h4>Requirements for Video Playback:</h4>
+                <ul>
+                    <li>EPUB 3.0 compatible reader</li>
+                    <li>Internet connection for streaming</li>
+                    <li>Modern web browser with video support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="cat-info">
+        <h2>Cat Care Tips</h2>
+        <div class="tip-box">
+            <h3>Sun Safety for Cats</h3>
+            <p>While cats love basking in the sun, it's important to ensure they have access to shade and fresh water. Here are some tips for keeping your cat safe in sunny weather:</p>
+            <ul>
+                <li>Provide plenty of shade options</li>
+                <li>Keep fresh water available</li>
+                <li>Monitor sun exposure time</li>
+                <li>Check for signs of overheating</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="troubleshooting">
+        <h2>Video Playback Help</h2>
+        <div class="tip-box">
+            <h3>If the video doesn't play:</h3>
+            <ol>
+                <li>Try using an EPUB 3.0 compatible reader (like Adobe Digital Editions)</li>
+                <li>Ensure you have a stable internet connection</li>
+                <li>Check if your device supports MP4 video playback</li>
+                <li>Try downloading the video using the provided link</li>
+            </ol>
+        </div>
+    </section>
+</body>
+</html> 
